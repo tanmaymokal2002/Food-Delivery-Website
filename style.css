@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -237,6 +239,151 @@ a{
     align-items: center;
 }
 
+.step-number{
+    font-size: 8.6rem;
+    font-weight: 600;
+    font-family: cursive;
+    margin-bottom: 1.2rem;
+    color: #bcb9b9;
+}
+
 .step-img{
     width: 35%;
+}
+
+.heading-tertiary{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.step-description{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+/* /// Section - Meals /// */
+
+.section-meals{
+    padding: 9.6rem 0;
+    /* background-color: #000; */
+    position: relative;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #39b385;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+
+.meal-container-1{
+    /* background-color: #000; */
+    padding: 5rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 9rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 3px;
+}
+
+.meal-container-2{
+    display: none;
+}
+
+.meal-container-3{
+    display: none;
+}
+
+.meal-img{
+    border: 3px;
+    width: 50%;
+}
+
+.meal-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-title {
+    font-size: 4rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+    /* text-decoration: #39b385 underline; */
+    padding-bottom: 2px;
+    border-bottom: 3px dotted green;
+
+}
+
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.meal-attribute {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #3ba353;
+}
+
+.slider__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+  
+    border: none;
+    font-family: inherit;
+    color: #3ba353;
+    background-color: #eeecec;
+    border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size: 3.25rem;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+  
+.slider__btn--left {
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.slider__btn--right {
+    right: 10%;
+    transform: translate(50%, -50%);
+}
+
+/* /// Section Pricing /// */
+
+.section-pricing{
+    padding: 9.6rem 0;
+}
+
+.subheading{
+
 }
