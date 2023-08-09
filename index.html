@@ -232,6 +232,98 @@
             <button class="slider__btn slider__btn--right">→</button>
         </section>
 
+        <section class="section-testimonials" id="testimonials">
+            <div class="testimonials-container">
+                <span class="subheading">Testimonials</span>
+                <h2 class="heading-secondary">Once you try it you can't go back</h2>
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <img src="img/customers/customer-1.jpg" alt="" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            Inexpensive, healthy and great-tasting meals, without even
+                            having to order manually! It feels truly magical.
+                        </blockquote>
+                        <p class="testimonial-name">— Dave Bryson</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img src="img/customers/customer-1.jpg" alt="" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            Inexpensive, healthy and great-tasting meals, without even
+                            having to order manually! It feels truly magical.
+                        </blockquote>
+                        <p class="testimonial-name">— Dave Bryson</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img src="img/customers/customer-1.jpg" alt="" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            Inexpensive, healthy and great-tasting meals, without even
+                            having to order manually! It feels truly magical.
+                        </blockquote>
+                        <p class="testimonial-name">— Dave Bryson</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img src="img/customers/customer-1.jpg" alt="" class="testimonial-img">
+                        <blockquote class="testimonial-text">
+                            Inexpensive, healthy and great-tasting meals, without even
+                            having to order manually! It feels truly magical.
+                        </blockquote>
+                        <p class="testimonial-name">— Dave Bryson</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery">
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-1.jpg" alt="Photo of beautifully
+                  arranged food">
+                    <!-- <figcaption>Caption</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-2.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-3.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-4.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-5.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-6.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-7.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-8.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-9.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-10.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-11.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery/gallery-12.jpg" alt="Photo of beautifully
+                  arranged food">
+                </figure>
+            </div>
+        </section>
+
         <section class="section-pricing" id="pricing">
             <div class="container">
                 <span class="subheading">Pricing</span>
@@ -314,45 +406,122 @@
                 </aside>
             </div>
 
-            <div class="container grid grid--4-cols">
-                <div class="feature">
-                    <ion-icon class="feature-icon md hydrated" name="infinite-outline" role="img"
-                        aria-label="infinite outline"></ion-icon>
-                    <p class="feature-title">Never cook again!</p>
-                    <p class="feature-text">
-                        Our subscriptions cover 365 days per year, even including major
-                        holidays.
-                    </p>
-                </div>
-                <div class="feature">
-                    <ion-icon class="feature-icon md hydrated" name="nutrition-outline" role="img"
-                        aria-label="nutrition outline"></ion-icon>
-                    <p class="feature-title">Local and organic</p>
-                    <p class="feature-text">
-                        Our cooks only use local, fresh, and organic products to prepare
-                        your meals.
-                    </p>
-                </div>
-                <div class="feature">
-                    <ion-icon class="feature-icon md hydrated" name="leaf-outline" role="img"
-                        aria-label="leaf outline"></ion-icon>
-                    <p class="feature-title">No waste</p>
-                    <p class="feature-text">
-                        All our partners only use reusable containers to package all your
-                        meals.
-                    </p>
-                </div>
-                <div class="feature">
-                    <ion-icon class="feature-icon md hydrated" name="pause-outline" role="img"
-                        aria-label="pause outline"></ion-icon>
-                    <p class="feature-title">Pause anytime</p>
-                    <p class="feature-text">
-                        Going on vacation? Just pause your subscription, and we refund
-                        unused days.
-                    </p>
-                </div>
-            </div>
         </section>
+
+        <div class="modal hidden">
+            <button class="btn--close-modal">×</button>
+            <h2 class="modal__header">
+                Get Your First Meal <span class="highlight">Free</span>
+            </h2>
+            <form class="modal__form">
+                <label>First Name</label>
+                <input type="text">
+                <label>Last Name</label>
+                <input type="text">
+                <label>Email Address</label>
+                <input type="email">
+                <button class="btn-modal">Next step →</button>
+            </form>
+        </div>
+
+        <div class="overlay hidden"></div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-header">
+                    <h3 class="footer-header-left">VEDGE</h3>
+                    <div class="footer-header-social">
+                        <ion-icon class="social-logo" name="logo-instagram"></ion-icon>
+                        <ion-icon class="social-logo" name="logo-twitter"></ion-icon>
+                        <ion-icon class="social-logo" name="logo-facebook"></ion-icon>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <div name="About Vedge" class="footer-nav-1">
+                        <h6 class="nav-header">About Vedge</h6>
+                        <nav class="nav-links">
+                            <a href="https://www.zomato.com/who-we-are" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Who We Are</p>
+                            </a><a href="https://blog.zomato.com/" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Blog</p>
+                            </a><a href="https://www.zomato.com/careers" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Work With Us</p>
+                            </a><a href="https://www.zomato.com/investor-relations" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Investor Relations</p>
+                            </a><a href="https://www.zomato.com/report-fraud" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Reportar uma Fraude</p>
+                            </a><a href="https://www.zomato.com/contact" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Contact Us</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div name="Vedgeverse" class="footer-nav-1">
+                        <h6 class="nav-header">Vedgeverse</h6>
+                        <nav class="nav-links">
+                            <a href="https://www.zomato.com/who-we-are" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Vedge</p>
+                            </a><a href="https://blog.zomato.com/" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Blinkit</p>
+                            </a><a href="https://www.zomato.com/careers" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Feeding in India</p>
+                            </a><a href="https://www.zomato.com/investor-relations" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Hyperpure</p>
+                            </a><a href="https://www.zomato.com/report-fraud" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Vedgeland</p>
+                            </a><a href="https://www.zomato.com/contact" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Contact Us</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div name="LEARN MORE" class="footer-nav-1">
+                        <h6 class="nav-header">LEARN MORE</h6>
+                        <nav class="nav-links">
+                            <a href="https://www.zomato.com/who-we-are" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Privacy</p>
+                            </a><a href="https://blog.zomato.com/" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Security</p>
+                            </a><a href="https://www.zomato.com/careers" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Terms</p>
+                            </a><a href="https://www.zomato.com/investor-relations" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Sitemap</p>
+                            </a>
+                            </a><a href="https://www.zomato.com/investor-relations" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">America</p>
+                            </a>
+                            </a><a href="https://www.zomato.com/investor-relations" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">India</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div name="Resources" class="footer-nav-1">
+                        <h6 class="nav-header">Resources</h6>
+                        <nav class="nav-links">
+                            <a href="https://www.zomato.com/who-we-are" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Account</p>
+                            </a><a href="https://blog.zomato.com/" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Recipe directory</p>
+                            </a><a href="https://www.zomato.com/careers" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Work With Us</p>
+                            </a><a href="https://www.zomato.com/investor-relations" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Investor Relations</p>
+                            </a><a href="https://www.zomato.com/report-fraud" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Reportar uma Fraude</p>
+                            </a><a href="https://www.zomato.com/contact" class="nav-link">
+                                <p class="sc-elhb8j-16 dxcfRo">Contact Us</p>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="download-buttons">
+                        <img class="btn-download-img" src="img/download buttons/google-pay.webp" alt="">
+                        <img class="btn-download-img" src="img/download buttons/apple-store.webp" alt="">
+                    </div>
+                </div>
+                <hr class="footer-line">
+                <p class="copyright">By continuing past this page, you agree to our Terms of Service, Cookie Policy,
+                    Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+                    2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+            </div>
+        </footer>
 
     </main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
