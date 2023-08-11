@@ -35,6 +35,8 @@ primary-light = #dff3e4
    position: relative;
 }
 
+
+
 a{
     text-decoration: none;
 }
@@ -82,12 +84,32 @@ a{
     background-color: #4bbb7d;
 }
 
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+  
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+}
+
 /* /// Section Hero /// */
 
 .section-hero{
     padding: 4.8rem 0 9.6rem 0;
     background-color: #dff3e4;
 }
+
+
+
 
 .hero-img{
     width: 100%;
@@ -212,7 +234,7 @@ a{
 }
 
 .subheading{
-    margin-bottom: -1.6rem;
+    margin-bottom: 0.4rem;
     font-size: 1.6rem;
     font-weight: 600;
     display: block;
@@ -269,10 +291,9 @@ a{
 }
 
 /* /// Section - Meals /// */
-
+/*
 .section-meals {
     padding: 9.6rem 0;
-    /* background-color: #dff3e4; */
     position: relative;
 }
 
@@ -330,7 +351,6 @@ a{
     color: #333;
     font-weight: 600;
     margin-bottom: 3.2rem;
-    /* text-decoration: #39b385 underline; */
     padding-bottom: 2px;
     border-bottom: 3px dotted green;
 
@@ -381,6 +401,8 @@ a{
     right: 10%;
     transform: translate(50%, -50%);
 }
+*/
+
 
 /* /// Section Pricing /// */
 
